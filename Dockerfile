@@ -12,8 +12,8 @@ RUN apk --update add php7
 # recommended
 RUN apk --update add openssl php7-openssl php7-json php7-phar php7-mbstring php7-zlib
 
-# clue/socket-raw requires sockets, proximate-requester requires pcntl
-RUN apk add php7-sockets php7-pcntl
+# clue/socket-raw requires sockets, proximate-requester requires pcntl and curl
+RUN apk add php7-sockets php7-pcntl php7-curl
 
 # Refresh the SSL certs, which seem to be missing
 # (This seems to be necessary just to fetch the Composer installer)
