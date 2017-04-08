@@ -494,12 +494,12 @@
             "source": {
                 "type": "git",
                 "url": "https://bitbucket.org/halferbits/proximate-requester.git",
-                "reference": "4745a69a1f76ca350a5c827169f178eba45ec16e"
+                "reference": "acbb32c8ba202426862c69b2df3981c97c434b2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://bitbucket.org/halferbits/proximate-requester/get/4745a69a1f76ca350a5c827169f178eba45ec16e.zip",
-                "reference": "4745a69a1f76ca350a5c827169f178eba45ec16e",
+                "url": "https://bitbucket.org/halferbits/proximate-requester/get/acbb32c8ba202426862c69b2df3981c97c434b2e.zip",
+                "reference": "acbb32c8ba202426862c69b2df3981c97c434b2e",
                 "shasum": ""
             },
             "require": {
@@ -520,7 +520,7 @@
                     "Proximate": "src/"
                 }
             },
-            "time": "2017-04-08 13:02:53"
+            "time": "2017-04-08 13:08:23"
         },
         {
             "name": "illuminate/contracts",
