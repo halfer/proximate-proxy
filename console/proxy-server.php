@@ -9,10 +9,14 @@ require_once $rootPath . '/vendor/autoload.php';
 
 use Proximate\Proxy\FileProxy;
 
+// Configuration goes here (I could read port and cache dir from env vars)
+$hostname = getenv('HOSTNAME');
+$port = 8081;
+$cacheParent = '/remote'; // The cache system appends '/cache'
+
 try
 {
-    $hostname = getenv('HOSTNAME');
-    $proxier = new FileProxy($hostname . ':8081', $rootPath);
+    $proxier = new FileProxy($hostname . ':' . $port, $cacheParent);
     $proxier->
         setup()->
         getProxy()->

@@ -1,3 +1,6 @@
+# Ignore a local/dev cache folder
+cache/
+
 # Ignore Composer symlink
 composer
 
@@ -6,3 +9,4 @@ vendor/
 
 # Ignore IDE
 nbproject/
+
