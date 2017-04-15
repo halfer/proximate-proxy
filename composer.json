@@ -5,7 +5,7 @@
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://bitbucket.org/halferbits/proximate-requester.git"
+      "url": "https://github.com/halfer/proximate-requester.git"
     }
   ]
 }
