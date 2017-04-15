@@ -18,7 +18,7 @@ try
 {
     $proxier = new FileProxy($hostname . ':' . $port, $cacheParent);
     $proxier->
-        setup()->
+        initSimpleSystem()->
         getProxy()->
         listenLoop();
 }
