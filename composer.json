@@ -2,12 +2,22 @@
     "name": "proximate/proxy",
     "description": "A Docker-based HTTP recording proxy built from Proximate tools",
     "require": {
-        "halferbits/proximate-requester": "dev-master"
+        "proximate/requester": "dev-master",
+        "proximate/storage": "dev-master",
+        "proximate/core": "dev-master"
     },
     "repositories": [
         {
             "type": "vcs",
             "url": "https://github.com/halfer/proximate-requester.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/halfer/proximate-storage.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/halfer/proximate-core.git"
         }
     ]
 }
