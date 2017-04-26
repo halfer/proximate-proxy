@@ -8,7 +8,7 @@ RUN apk update
 # Install PHP
 RUN apk --update add php7
 
-# Composer needs all of 'php5-openssl php5-json php5-phar mbstring' and 'zlib' is
+# Composer needs all of 'phpX-openssl phpX-json phpX-phar phpX-mbstring' and 'zlib' is
 # recommended
 RUN apk --update add openssl php7-openssl php7-json php7-phar php7-mbstring php7-zlib
 
