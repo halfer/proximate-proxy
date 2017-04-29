@@ -45,4 +45,4 @@ COPY console /var/proxy/console
 # 8081 - proxy
 EXPOSE 8081
 
-ENTRYPOINT ["php", "/var/proxy/console/proxy-server.php"]
+ENTRYPOINT ["php", "/var/proxy/console/proxy-server.php", ">>", "$PROXY_LOG_PATH"]
