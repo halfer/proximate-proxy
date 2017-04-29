@@ -437,12 +437,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/halfer/proximate-requester.git",
-                "reference": "09fc5be998baf071d67c1bd471c594c2c5e1c9e9"
+                "reference": "c1cf75da1dba74ed124bd79ad2a2786780815bdd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/halfer/proximate-requester/zipball/09fc5be998baf071d67c1bd471c594c2c5e1c9e9",
-                "reference": "09fc5be998baf071d67c1bd471c594c2c5e1c9e9",
+                "url": "https://api.github.com/repos/halfer/proximate-requester/zipball/c1cf75da1dba74ed124bd79ad2a2786780815bdd",
+                "reference": "c1cf75da1dba74ed124bd79ad2a2786780815bdd",
                 "shasum": ""
             },
             "require": {
@@ -472,7 +472,7 @@
                 "source": "https://github.com/halfer/proximate-requester/tree/master",
                 "issues": "https://github.com/halfer/proximate-requester/issues"
             },
-            "time": "2017-04-26 23:24:23"
+            "time": "2017-04-29 11:14:01"
         },
         {
             "name": "proximate/storage",
