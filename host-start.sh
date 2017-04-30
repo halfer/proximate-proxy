@@ -12,7 +12,7 @@ ROOTDIR=`pwd`
 docker run \
     -p 127.0.0.1:8081:8081 \
     -v ${ROOTDIR}/cache:/remote/cache \
-    -e PROXY_LOG_PATH=/dev/stdout \
+    -e PROXY_LOG_PATH=${ROOTDIR}/proxy.log \
     proximate-proxy
 
 # Go back to original dir
