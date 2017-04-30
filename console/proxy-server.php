@@ -12,7 +12,7 @@ use Proximate\Proxy\FileProxy;
 // Configuration goes here (I could read port and cache dir from env vars)
 $hostname = getenv('HOSTNAME');
 $port = 8081;
-$cacheParent = '/remote'; // The cache system appends '/cache'
+$cacheParent = '/remote/cache';
 
 try
 {
