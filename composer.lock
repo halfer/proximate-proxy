@@ -4,7 +4,6 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0e836ad3ee841471d7048d91b8eae290",
     "content-hash": "aea97c253f125283be25fa9471c821cd",
     "packages": [
         {
@@ -66,7 +65,7 @@
                 "psr-6",
                 "tag"
             ],
-            "time": "2017-03-13 08:24:04"
+            "time": "2017-03-13T08:24:04+00:00"
         },
         {
             "name": "cache/filesystem-adapter",
@@ -134,7 +133,7 @@
                 "psr-6",
                 "tag"
             ],
-            "time": "2017-03-13 09:25:46"
+            "time": "2017-03-13T09:25:46+00:00"
         },
         {
             "name": "cache/tag-interop",
@@ -189,7 +188,7 @@
                 "psr6",
                 "tag"
             ],
-            "time": "2017-03-13 09:14:27"
+            "time": "2017-03-13T09:14:27+00:00"
         },
         {
             "name": "clue/socket-raw",
@@ -241,7 +240,7 @@
                 "udp",
                 "unix"
             ],
-            "time": "2015-03-18 23:48:01"
+            "time": "2015-03-18T23:48:01+00:00"
         },
         {
             "name": "league/flysystem",
@@ -324,7 +323,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2017-04-28 10:15:08"
+            "time": "2017-04-28T10:15:08+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -402,7 +401,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2017-03-13 07:08:03"
+            "time": "2017-03-13T07:08:03+00:00"
         },
         {
             "name": "proximate/core",
@@ -410,12 +409,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/halfer/proximate-core.git",
-                "reference": "7ddd20975b4accd08763ec2d53e7ec7a17c74c78"
+                "reference": "c2c61abe6f57157980534b19279f92325798b047"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/halfer/proximate-core/zipball/7ddd20975b4accd08763ec2d53e7ec7a17c74c78",
-                "reference": "7ddd20975b4accd08763ec2d53e7ec7a17c74c78",
+                "url": "https://api.github.com/repos/halfer/proximate-core/zipball/c2c61abe6f57157980534b19279f92325798b047",
+                "reference": "c2c61abe6f57157980534b19279f92325798b047",
                 "shasum": ""
             },
             "type": "library",
@@ -429,7 +428,7 @@
                 "source": "https://github.com/halfer/proximate-core/tree/master",
                 "issues": "https://github.com/halfer/proximate-core/issues"
             },
-            "time": "2017-04-26 15:09:19"
+            "time": "2017-05-09 18:06:37"
         },
         {
             "name": "proximate/requester",
@@ -437,12 +436,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/halfer/proximate-requester.git",
-                "reference": "9a6157b8e65aad544dc374669fbfbcce21deecf9"
+                "reference": "d4a3b7db8a1496d6d38446cf455c2e0e1a24929e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/halfer/proximate-requester/zipball/9a6157b8e65aad544dc374669fbfbcce21deecf9",
-                "reference": "9a6157b8e65aad544dc374669fbfbcce21deecf9",
+                "url": "https://api.github.com/repos/halfer/proximate-requester/zipball/d4a3b7db8a1496d6d38446cf455c2e0e1a24929e",
+                "reference": "d4a3b7db8a1496d6d38446cf455c2e0e1a24929e",
                 "shasum": ""
             },
             "require": {
@@ -472,7 +471,7 @@
                 "source": "https://github.com/halfer/proximate-requester/tree/master",
                 "issues": "https://github.com/halfer/proximate-requester/issues"
             },
-            "time": "2017-05-07 12:34:21"
+            "time": "2017-05-09 18:29:59"
         },
         {
             "name": "proximate/storage",
@@ -480,12 +479,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/halfer/proximate-storage.git",
-                "reference": "331bbd709c44214f892fbdc4dbb9a6ec0915fc62"
+                "reference": "df170ed55a898ed9db2c435bb3490ba30598c1ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/halfer/proximate-storage/zipball/331bbd709c44214f892fbdc4dbb9a6ec0915fc62",
-                "reference": "331bbd709c44214f892fbdc4dbb9a6ec0915fc62",
+                "url": "https://api.github.com/repos/halfer/proximate-storage/zipball/df170ed55a898ed9db2c435bb3490ba30598c1ab",
+                "reference": "df170ed55a898ed9db2c435bb3490ba30598c1ab",
                 "shasum": ""
             },
             "require": {
@@ -508,7 +507,7 @@
                 "source": "https://github.com/halfer/proximate-storage/tree/master",
                 "issues": "https://github.com/halfer/proximate-storage/issues"
             },
-            "time": "2017-04-29 23:16:11"
+            "time": "2017-05-09 18:26:13"
         },
         {
             "name": "psr/cache",
@@ -554,7 +553,7 @@
                 "psr",
                 "psr-6"
             ],
-            "time": "2016-08-06 20:24:11"
+            "time": "2016-08-06T20:24:11+00:00"
         },
         {
             "name": "psr/log",
@@ -601,7 +600,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-10-10 12:19:37"
+            "time": "2016-10-10T12:19:37+00:00"
         },
         {
             "name": "psr/simple-cache",
@@ -649,7 +648,7 @@
                 "psr-16",
                 "simple-cache"
             ],
-            "time": "2017-01-02 13:31:39"
+            "time": "2017-01-02T13:31:39+00:00"
         }
     ],
     "packages-dev": [],
